@@ -9,7 +9,7 @@ const nuevaString = "String";
 const nuevoNum = 56;
 
 // Crea una variable booleana:
-const nuevoBool = True;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -69,7 +69,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return String.length(str1)===String.length(str2);
+  return str1.length===str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -134,7 +134,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.round(num,1);
+  return Math.ceil(num,1);
 }
 
 function numeroRandom() {
@@ -181,7 +181,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
+  return alto*ancho;
 }
 
 
@@ -213,9 +213,9 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if(isString(letra) && String.length(letra)==1){
+  if(isString(letra) && letra.length==1){
     if(letra.toLowerCase()=="a" || letra.toLowerCase()=="e" ||
-       letra.toLowerCase()=="u" || letra.toLowerCase()=="o" ||
+       letra.toLowerCase()=="i" || letra.toLowerCase()=="o" ||
        letra.toLowerCase()=="u")
     {
       return "Es vocal";
