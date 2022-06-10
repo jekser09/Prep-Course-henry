@@ -33,6 +33,6 @@
     "markdown-it": "^12.3.0",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-highlightjs": "^3.5.0",
-    "simple-git": "^2.45.1"
+    "simple-git": "^3.7.1"
   }
 }
