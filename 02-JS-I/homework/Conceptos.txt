@@ -1,0 +1,9 @@
+Conceptos
+
+
+Variables: Una variable es como una cajita donde vamos a guardar, 
+un dato especifico, este dato puede ser un numero, una letra, un verdadero
+o un falso.
+
+String: Esto es como una sopa de letras pero con mas opciones, por ejemplo
+aqui puedes guardar, letras, numeros y simbolos combinados
