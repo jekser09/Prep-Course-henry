@@ -6,4 +6,34 @@ un dato especifico, este dato puede ser un numero, una letra, un verdadero
 o un falso.
 
 String: Esto es como una sopa de letras pero con mas opciones, por ejemplo
-aqui puedes guardar, letras, numeros y simbolos combinados
+aqui puedes guardar, letras, numeros y simbolos combinados por ejemplo:
+@,%,&,/,(,#... etc.
+
+Funciones: Una funcion es un confre un poco mas grande que contiene instrucciones,
+entonces este cofre lo puedo abrir cuando yo quiera para utilizar dichas
+instrucciones cada que lo necesito, algo bueno de este cofre es que tiene
+la posibilidad de "respondernos", cuando le agregamos al cofre una insturccion
+que se llama "return" podemos configurarlo para que cuando este cofre termine,
+sus instrucciones nos devuelva una respuesta a traves del "return", este "return"
+no es obligatorio ya que este cofre puede realizar sus instrucciones sin
+devolver una "respuesta".
+
+Declaracion if: Un "if" o "si" en español basicamente es como realizar una
+pregunta de si o no, por ejemplo aqui podemos preguntar si 2+2 es igual a 4
+pero no solo esto, resulta que cuando la pregunta es verdad o es mentira,
+podemos indicar que se realice una instruccion, por ejemplo si tienes 2000
+pesos podrias comprarte unas papas de pollo en la tienda, pero si tienes menos
+de 2000 pesos ya no puedes comprarte esas papas.
+
+Booleano: Es un dato que solo tiene dos opciones ser verdad o ser falso, entonces
+estos datos los usamos para llevar ciertos controles, por ejemplo podemos preguntar
+que mientras no hallan 11 jugadores en un equipo de futbol no se puede jugar, entonces
+agregamos un jugador al equipo llevariamos 1 jugador y un jugador es menos que 11 entonces
+esto seria falso para poder realizar el equipo, entonces sumamos jugadores hasta que llegamos a 11
+jugadores, entonces cuando tenemos 11 jugadores y lo que se necesita es tener
+11 jugadores esto es verdadero y podemos armar el equipo.
+
+
+
+
+
