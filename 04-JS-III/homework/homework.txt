@@ -1,0 +1,16 @@
+Arrays: Un array o arreglo en español, es como una mesita de noche pero con
+todos los cajones que uno quiera ponerle, entonces en cada cajoncito se pueden
+guardar numeros, letras, simbolos o cosas mas complejas, estos cajoncitos estan
+enumerados desde el 0, es decir si tenemos diez cajones en una mesa de noche se veria
+algo asi:
+ ___
+|[o]| -> 0 (Cajon 1, pero lo encontramos con el 0)
+|[o]| -> 1 (Cajon 2, pero lo encontramos con el 1)
+|[o]| -> 2 (Cajon 3, pero lo encontramos con el 2)
+|[o]| -> 3 (Cajon 4, pero lo encontramos con el 3)
+|[o]| -> 4 (Cajon 5, pero lo encontramos con el 4)
+|[o]| -> 6 (Cajon 6, pero lo encontramos con el 5)
+|[o]| -> 6 (Cajon 7, pero lo encontramos con el 6)
+|[o]| -> 7 (Cajon 8, pero lo encontramos con el 7)
+|[o]| -> 8 (Cajon 9, pero lo encontramos con el 8)
+|[o]| -> 9 (Cajon 10, pero lo encontramos con el 9)
