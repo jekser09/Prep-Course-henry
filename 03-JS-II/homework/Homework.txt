@@ -1,0 +1,37 @@
+for: Esto es una "estructura" o una "orden" que se encargar de repetir
+una instruccion cierta cantidad de veces, esa cantidad la definimos
+nosotros mismos, entonces aqui podemos realizar tareas como contar algo
+por ejemplo si tenemos una lista con 10 personas, podriamos entrar a esa
+lista gracias al for y ver a cada persona por separado.
+
+&&: Esto es un conector logico, osea una operacion como una suma o una resta
+pero en lugar de darnos un numero devolvera "verdadero" o "falso", en este caso
+estos dos simbolos representan una "Y", entonces este conector evalua 2 o mas casos,
+por ejemplo podriamos tener una situacion en la que hay dos niños llendo a comprar
+un helado y cada uno elije un sabor distinto, el primer niño elije chocolate y el segundo
+vainilla, entonces gracias al conector && (Y) podriamos preguntar si los dos niños tienen
+helado de chocolate que en este caso seria falso, si el niño uno tiene helado de chocolate
+y el niño 2 tiene helado de chocolate entonces seria verdad, pero para este ejemplo el resultado
+es falso.
+
+||: Esto es un conector logico, osea una operacion como una suma o una resta
+pero en lugar de darnos un numero devolvera "verdadero" o "falso", en este caso
+estos dos simbolos representan una "O", entonces este conector evalua 2 o mas casos,
+por ejemplo podriamos tener una situacion en la que hay dos niños llendo a comprar
+un helado y cada uno elije un sabor distinto, el primer niño elije chocolate y el segundo
+vainilla, entonces gracias al conector || (O) podriamos preguntar si alguno de los dos niños
+tiene helado de chocolate, que en este caso seria verdadero, si el niño uno tiene helado de chocolate
+y el niño dos tiene helado de vainilla entonces esto seria cierto, ya que este conector "pregunta"
+si una de las dos cosas es cierta, si es el caso entonces devolvera verdadero, solo en el caso de que
+las dos casos sean falsedad devolvera falso, el caso seria que los dos niños hubiesen comprado helado
+de vainilla entonces cuando preguntamos, si alguno de los niños tiene helado de chocolate entonces
+seria falso.
+
+!: Este es un operador logico, osea una operacion como una suma o una resta
+pero en lugar de darnos un numero devolvera "verdadero" o "falso", en este caso
+este simbolo representa un "NO" o una negacion, entonces lo utilizaremos para decir
+lo contrario de una afirmacion o algo que es verdad, por ejemplo podriamos decir
+"juan es inteligente" pero si utilizamos la oracion asi "! (juan es inteligente)" seria
+lo mismo que decir "juan no es inteligente", en ese orden de ideas es contradecir o llevar 
+la contrararia a algo, entoncessi tenemos "verdad" y le agregamos este operador "!verdad"
+el resultado final seria "falso".
