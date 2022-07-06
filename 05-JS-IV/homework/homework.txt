@@ -1,0 +1,20 @@
+Objetos: Un "objeto", es como la descripcion  de una cosa de la vida real por ejemplo,
+una cosa del mundo real podria ser un perro y nosotros dentro de un objeto podriamos describir
+las caracteristicas de dicho perro (tipoAnimal: perro, nombre: lucas, edad: 7 etc....).
+
+Propiedades: Son las caracteristicas o "atributos" que describen alguna cosa por ejemplo, un lapiz
+es una cosa pero cuando decimos que el lapiz es de color rojo o que el lapiz es de mina 2A esos serian los
+atributos.
+
+Metodos: Un metodo o funcion es un pedacito de codigo que puedo llamar las veces que yo quiera, para realizar
+una tarea especifica.
+
+Bucle for in: Este bucle no utiliza una numeracion, es decir no podemos ver un numerito que me cuenta todos
+valores del objeto, si no que lo que hace este bucle es agarrar cada atributo del objeto y eso es lo que
+podemos manipular.
+
+Objetos, notacion puntos: Este es simplemente una forma de acceder al valor de un atributo o
+de agregar uno nuevo asi, Objeto.atributo (Acceder al valor) / Objeto.atributo=valor (crear atributo o modificar el valor);
+
+Objetos notacion de corche: Este es simplemente una forma de acceder al valor de un atributo o
+de agregar uno nuevo asi, Objeto["atributo"] (Acceder al valor) / Objeto["atributo"]=valor (crear atributo o modificar el valor);
