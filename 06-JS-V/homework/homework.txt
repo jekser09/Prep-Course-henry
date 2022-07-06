@@ -1,0 +1,8 @@
+Prototype: Esto es una propiedad que integra por defecto javascript a las clases y a las funciones
+que nos permite añadir a dichas clases y funciones, atributos y fucniones sin tener que modificarlas
+entonces por ejemplo tenemos una clase que se llama Perro y este perro es de raza pug y de color negro,
+pues gracias al Prototype de manera externa podriamos agregarle un metodo que se llame 'ladrar',
+Perro.prototype.ladrar=function(){return "wow";}
+
+_Constructors_ de clase: los metodos llamados "constructores", son un pedacito de codigo que
+es el primero en ser ejecutado cuando llamamos a una clase o mejor dicho la instanciamos.
