@@ -1,0 +1,5 @@
+Funciones callback: Llamamos funciones callback a la accion de llamar
+una funcion dentro de otra, entonces por ejemplo tenemos una funcion que
+tiene una lista de 9 numeros (del 1 al 9), podriamos desde dicha funcion llamar
+a otra que se encargue de sumar listas de numeros, entonces la primera funcion
+le pasa los numeros a la segunda y la segunda los suma.
