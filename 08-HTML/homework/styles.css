@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/12/03/45/tomato-4841602_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin: auto;
+    
+
+}   
+img {
+    max-width: 400px;
+}
+#thirdDiv {
+    padding: 50px;
+    padding-top: 1px;
+    padding-bottom: 235px;
+    background-color: #B2331A;
+    border: 5px ridge #B21A1A;
+    width: 500px;
+    height: 600px;
+    
+    
+}
+#spanId {
+    margin: 50px;
+    font-size: 18px;
+}
