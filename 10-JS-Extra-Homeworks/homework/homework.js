@@ -10,6 +10,8 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+
+  return Object.entries(objeto);
 }
 
 
@@ -17,7 +19,29 @@ function numberOfCharacters(string) {
   //La función recibe un string. Recorre el srting y devuelve el caracter con el número de veces que aparece 
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
-  //Escribe tu código aquí
+  //Escribe tu código aquí  
+  let contadas=[];  
+  let obj={};
+  for(let i=0;i<string.length;i++){
+    let contador=0;
+    let bandera=false;
+    for(let b=0;b<contadas.length;b++){
+      if(string.charAt(i)===contadas[b]){
+        bandera=true;
+        break;
+      }
+    }
+    if(!bandera){
+      contadas.push(charAt(i));
+      for(let j=0;i<string.length;j++){
+        if(string.charAt(i)===string.charAt(j)){
+          contador++;
+        }
+      }
+      obj[charAt(i)]=contador;
+    } 
+  }
+  return obj;
 }
 
 
@@ -26,6 +50,17 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  let letras=s.split("");
+  let mayus=[];
+  let minus=[];
+  for(let i=0;i<letras.length;i++){
+    if(letras[i]===letras[i].toUpperCase()){
+      mayus.push(letras[i]);
+    }else{
+      minus.push(letras[i]);
+    }
+  }
+  return mayus.join()+minus.join();
 }
 
 
@@ -35,6 +70,7 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+  
 } 
 
 
